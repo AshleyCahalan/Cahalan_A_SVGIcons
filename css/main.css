@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/*basic reset*/
+
+div,p,body,header,footer,section,article,nav {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none; /*Remove border if image is a link*/
+    margin: 0;
+    padding: 0;
+}
+
+/*html selectors*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+
+a:link, a:visited {
+    text-decoration:none;
+}
+
+a:hover, a:active {
+    text-decoration:none;
+}
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 0 auto;
+    width: 920px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mainHeader {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 4px #009E60;
+}
+
+#mainNav {
+    margin-left: auto;
+    width: 500px;
+}
+
+.mainNav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mainNav ul li {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: "Bahnschrift Condensed", Arial, sans-serif;
+    font-weight: bold;
+    display: inline;
+    margin-left: 55px;
+}
+
+.mainNav ul li a {
+    color: #444;
+    padding: 10px;
+  	border-radius: 10px;
+  	transition: all .5s ease-in-out;
+}
+
+.mainNav ul li a:hover {
+    background-color: #50C878;
+}
+
+.selected {
+    padding: 10px;
+    background-color: #50C878;
+    border-radius: 10px;
+}
+
+
+
+#pageTop {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-bottom: solid 4px #FF7900;
+}
+
+#pageHeading {
+    font-family: Gabriola, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 60px;
+    line-height: 10px;
+}
+
+#pageSubHeading {
+    font-family: Gabriola, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1px;
+    margin-left: 250px;
+}
+
+#intro {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#pageIntro {
+  font-family: Gabriola, "Times New Roman", serif;
+  font-size: 22px;
+}
+
+.description {
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 18px;
+}
+
+
+.iconsRow {
+    margin-top: 20px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#iconsBottomRow {
+    margin-top: 10px;
+    border-bottom: solid 4px #009E60;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 140px;
+}
+
+
+
+#mainFooter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#copyRight {
+    width: 310px;
+}
+
+#copyRight p {
+    text-align: right;
+    margin-top: 15px;
+    font-family: "Bahnschrift Condensed", Arial, sans-serif;
+}
+
+
+
+#footerNav {
+    width: 500px;
+}
+
+.footerNav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerNav ul li {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: "Bahnschrift Condensed", Arial, sans-serif;
+    font-weight: bold;
+    display: inline;
+    margin-left: 55px;
+}
+
+.footerNav ul li a {
+    color: #444;
+    padding: 2px;
+    padding: 10px;
+  	border-radius: 10px;
+  	transition: all .5s ease-in-out;
+}
+
+.footerNav ul li a:hover {
+    background-color: #50C878;
+}
+
+
+#ceiliDancersSVG { width: 45%; }
+#claddaghSVG { width: 50%; }
+#maleDancerSVG { width: 30%; }
+#softShoeSVG { width: 30%; }
+#hardShoeSVG { width: 40%; }
+#jumpSVG { width: 45%; }
+#shamrockSVG { width: 45%; }
+#femaleDancerSVG { width: 25%; }
+#kickSVG { width: 25%; }
+#trickSVG { width: 25%; }
+
+
+#black-ceili-dancers:hover { fill: #009A49 !important; transition: all .6s ease-in-out; }
+#black-ceili-dancers { cursor: pointer; }
+
+#black-claddagh:hover { fill: #FF7900 !important; }
+#black-claddagh { cursor: pointer; transition: all .6s ease-in-out;}
+
+#black-male-dancer:hover { fill: #009A49 !important; transition: all .6s ease-in-out; }
+#black-male-dancer { cursor: pointer; }
+
+#black-soft-shoe:hover { fill: #FF7900 !important; transition: all .6s ease-in-out; }
+#black-soft-shoe { cursor: pointer; }
+
+#black-hard-shoe:hover { fill: #FF7900 !important; transition: all .6s ease-in-out; }
+#black-hard-shoe { cursor: pointer; }
+
+#black-jump:hover { fill: #009A49 !important; transition: all .6s ease-in-out; }
+#black-jump { cursor: pointer; }
+
+#black-shamrock:hover { fill: #FF7900 !important; transition: all .6s ease-in-out; }
+#black-shamrock { cursor: pointer; }
+
+#black-female-dancer:hover { fill: #009A49 !important; transition: all .6s ease-in-out; }
+#black-female-dancer { cursor: pointer; }
+
+#black-kick:hover { fill: #009A49 !important; transition: all .6s ease-in-out; }
+#black-kick { cursor: pointer; }
+
+#black-trick:hover { fill: #FF7900 !important; transition: all .6s ease-in-out; }
+#black-trick { cursor: pointer; }
